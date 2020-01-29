@@ -1,0 +1,35 @@
+{
+  "name": "tfjs-codelab-training-regression",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack --model production",
+    "dev": "webpack-dev-server --color --progress --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rin9o/tfjs-codelab-training-regression.git"
+  },
+  "keywords": [
+    "tensorflow"
+  ],
+  "author": "rin9o",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rin9o/tfjs-codelab-training-regression/issues"
+  },
+  "homepage": "https://github.com/rin9o/tfjs-codelab-training-regression#readme",
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^1.5.1",
+    "@tensorflow/tfjs-vis": "^1.4.0"
+  }
+}
